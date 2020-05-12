@@ -1,0 +1,29 @@
+
+
+zuul:
+  routes:
+       user:
+       path: /users/**
+       service-id: USERMANAGEMENT
+---        
+      userprofile:
+      path: /userprofile/**
+      service-id: USERPROFILEMANAGEMENT
+---      
+      booking:
+      path: /booking/**
+      service-id: BOOKINGMANAGEMENT
+---      
+      bus:
+      path: /buses/**
+      service-id: BUSMANAGEMENT
+---
+      transaction:
+      path: /transactions/**
+      service-id: TRANSACTIONMANAGEMENT
+---
+      seats:
+      path: /seats/**
+      service-id: SEATMANAGEMENT
+      
+      
